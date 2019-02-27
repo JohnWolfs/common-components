@@ -1,0 +1,42 @@
+@import '../../../sass/helpers/helper.scss';
+
+.dialog.dialog-rule {
+    padding-bottom: p2r(10px);
+    .dialog__content {
+        height: p2r(660px);
+        overflow: auto;
+    }
+    .rule-item {
+        display: flex;
+        margin-bottom: p2r(26px);
+        .rule-index {
+        background: #ffe3e5;
+        color: #e83c47;
+        @include size(40px, 40px);
+        @include fontsize(26px);
+        border-radius: p2r(20px);
+        display: block;
+        text-align: center;
+        line-height: p2r(40px);
+        margin-right: p2r(16px);
+        }
+        .rule-text {
+        width: p2r(463px);
+        @include fontsize(24px);
+        line-height: p2r(38px);
+        }
+        &:last-child {
+        margin-bottom: 0;
+        }
+    }
+    .btn-close {
+        @include size(64px, 64px);
+        background: url(../images/close.png) no-repeat;
+        background-size: 100% 100%;
+        bottom: p2r(-80px);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        position: absolute;
+    }
+}

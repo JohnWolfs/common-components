@@ -1,0 +1,16 @@
+{{each data val}}
+<li class="item autoload__item">
+    <div class="item-platform recommend">
+        <div class="item-name">钱保姆</div>
+        <div class="item-rank">排名：10</div>
+    </div>
+    <div class="item-rule rule">
+        <p class="time">
+            <span>最低出借期限</span>1个月</p>
+        <p class="interest">最高返100元+出借金额X1.5%</p>
+    </div>
+    <div class="item-platforms platforms">
+        <div class="btn-view">查看</div>
+    </div>
+</li>
+{{/each}}

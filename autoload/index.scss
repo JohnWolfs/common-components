@@ -1,0 +1,14 @@
+@import '../../sass/helpers/helper.scss';
+
+.autoload {
+    .autoload__loading {
+        @include fontsize(24px);
+        text-align: center;
+        padding: p2r(20px) 0;
+    }
+    .autoload__empty {
+        @include fontsize(24px);
+        text-align: center;
+        padding: p2r(20px) 0;
+    }
+}

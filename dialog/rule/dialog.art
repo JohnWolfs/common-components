@@ -1,0 +1,28 @@
+<div class="dialog dialog-rule">
+    <h2 class="dialog__title"><i class="icon-rule"></i>活动规则</h2>
+    <div class="dialog__content">
+        <ul>
+            <li class="rule-item">
+                <span class="rule-index">1</span>
+                <div class="rule-text">通过分享邀请链接，邀请好友通过链接注册并下载小派卡贷app申请借款，好友在小派卡贷第一次借款成功，邀请人和被邀请人即可分别获得一个价值10元的红包；</div>
+            </li>
+            <li class="rule-item">
+                <span class="rule-index">2</span>
+                <div class="rule-text">红包放置在小派宝箱内，在还款时可用于抵扣您的借款应还金额；</div>
+            </li>
+            <li class="rule-item">
+                <span class="rule-index">3</span>
+                <div class="rule-text">红包使用说明：通过此邀请活动获得的红包，借款金额、借款期限均不限制；每笔借款可用一个红包；</div>
+            </li>
+            <li class="rule-item">
+                <span class="rule-index">4</span>
+                <div class="rule-text">好友第二笔及之后的借款双方将不再获得现金红包；</div>
+            </li>
+            <li class="rule-item">
+                <span class="rule-index">5</span>
+                <div class="rule-text">使用非正常途径或手段获得的邀请奖励无效，小派卡贷保留最终解释权。</div>
+            </li>
+        </ul>
+    </div>
+    <div class="btn-close"></div>
+</div>

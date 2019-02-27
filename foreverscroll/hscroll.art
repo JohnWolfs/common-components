@@ -1,0 +1,7 @@
+<div class="foreverscroll foreverscroll-hscroll">
+    <ul>
+        {{each data val key}}
+        <li class="foreverscroll__item">test---test</li>
+        {{/each}}
+    </ul>
+</div>

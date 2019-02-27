@@ -1,0 +1,21 @@
+
+@import '../../sass/helpers/helper.scss';
+
+.foreverscroll-hscroll {
+  display: block;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  ul {
+      position: absolute;
+      top: 0;
+      white-space: nowrap;
+  }
+  .foreverscroll__item {
+    line-height: p2r(30px);
+    display: inline-block;
+    margin-right: p2r(12px);
+    @include fontsize(24px);
+  }
+}

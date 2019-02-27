@@ -1,0 +1,26 @@
+
+.pause-layer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .6);
+  display: none;
+}
+.pause {
+  width: 6rem;
+  padding: 60px 0;
+  background: #fff;
+  border-radius: 6px;
+  font-size: 26px;
+  margin: 0 auto;
+  text-align: center;
+  top: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  color: #3a3a3a;
+  background: #efefef;
+}

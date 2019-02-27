@@ -1,0 +1,44 @@
+@import '../../sass/helpers/helper.scss';
+
+$borderRadius: p2r(30px);
+
+.dialog-overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: rgba(0, 0, 0, .6);
+  z-index: 9999;
+}
+
+.dialog {
+  position: absolute;
+  background: #fff;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: $borderRadius;
+  height: auto;
+  .dialog__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: p2r(598px);
+    height: auto;
+    line-height: p2r(97px);
+    @include fontsize(36px);
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    background: -webkit-linear-gradient(top, #e344b6 0%,#fe4e50 100%);
+    border-top-left-radius: $borderRadius ;
+    border-top-right-radius: $borderRadius;
+  }
+  .dialog__content {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: p2r(30px) p2r(22px);
+  }
+}
+

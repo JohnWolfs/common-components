@@ -1,0 +1,5 @@
+<div class="toast__content toast__loadingwrapper">
+<div class="toast__loading">
+    <img src="./loading.svg">
+</div>
+</div>

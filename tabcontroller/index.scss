@@ -1,0 +1,26 @@
+
+.tab-controller {
+    .tab-controller__tab-container {
+        overflow:hidden;
+        _zoom:1;
+    }
+    .tab-controller__tab {
+        cursor: pointer;
+        z-index: 1;
+    }
+    .tab-controller__tab_active {
+        color: #fff;
+    }
+    // .tab-controller__content-container {
+
+    // }
+    .tab-controller__content {
+        display: none;
+    }
+    .tab-controller__content_active {
+        display: block;
+    }
+    .tab-controller__selected {
+        position: absolute;
+    }
+}

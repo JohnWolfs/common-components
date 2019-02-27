@@ -1,0 +1,7 @@
+<div class="foreverscroll">
+    <ul>
+        {{each data val key}}
+        <li class="foreverscroll__item">刚刚{{val.phone}} 赚取 {{val.fee}} 元</li>
+        {{/each}}
+    </ul>
+</div>

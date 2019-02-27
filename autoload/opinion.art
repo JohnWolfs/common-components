@@ -1,0 +1,14 @@
+{{each data val index}}
+<li>
+    <div class="platform-rank">
+    </div>
+    <div class="platform-name">
+        <p>钱保姆</p>
+        <div class="platform-tag">厦门银行存管</div>
+    </div>
+    <div class="platform-status">运营正常</div>
+    <div class="platform-info">
+        <div class="btn-viewhot">查看热点</div>
+    </div>
+</li>
+{{/each}}

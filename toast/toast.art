@@ -1,0 +1,4 @@
+<div class="toast__content">
+<div class="toast__text">{{text}}</div>
+</div>
+

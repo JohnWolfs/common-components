@@ -1,0 +1,15 @@
+@import '../../sass/helpers/helper.scss';
+
+.foreverscroll {
+  display: block;
+  height: p2r(240px);
+  overflow: hidden;
+  position: relative;
+  ul {
+      position: relative;
+      top: 0;
+  }
+  .foreverscroll__item {
+
+  }
+}

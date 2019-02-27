@@ -1,0 +1,38 @@
+@import '../../sass/helpers/helper.scss';
+
+.toast {
+  display: none;
+  z-index: 9999;
+  .toast__wrapper {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+  }
+  .toast__content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0, 0, 0, .7);
+      border-radius: p2r(10px);
+      padding: p2r(30px);
+      max-width: p2r(420px);
+      transition: all 1s;
+  }
+  .toast__loading {
+      width: p2r(70px);
+  }
+  .toast__loadingwrapper {
+      padding: p2r(20px);
+  }
+  .toast__text {
+      @include fontsize(30px);
+      color: #fff;
+      line-height: p2r(48px);
+  }
+}
